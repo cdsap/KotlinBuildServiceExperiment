@@ -1,0 +1,15 @@
+package com.performance
+
+class Module_7_245_189 {
+    fun module_7_245_189() : String {
+        val value = "Module_7_245_189"
+        println("module_7_245")
+        
+        val dependencyClass0 = com.performance.Module_6_230_29().module_6_230_29()
+        println(dependencyClass0)
+        val dependencyClass1 = com.performance.Module_6_227_48().module_6_227_48()
+        println(dependencyClass1)
+
+        return value
+    }
+}
