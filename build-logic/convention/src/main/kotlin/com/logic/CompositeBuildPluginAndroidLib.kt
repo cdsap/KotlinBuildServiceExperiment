@@ -68,7 +68,7 @@ class CompositeBuildPluginAndroidLib : Plugin<Project> {
 private fun Project.configureKotlinWithBuildServices() {
     RegistrationAction(
         project,
-        1,
+        2,
     ).execute()
     tasks.withType<KotlinCompile>().configureEach {
         usesService(
